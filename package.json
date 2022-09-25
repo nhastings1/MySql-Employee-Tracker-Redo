@@ -4,7 +4,7 @@
   "description": "AS A business owner I WANT to be able to view and manage the departments, roles, and employees in my company SO THAT I can organize and plan my business",
   "main": "server.js",
   "scripts": {
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+    "test": "\"echo \"Error: no test specified\" && exit 1\"",
     "start": "node server.js"
   },
   "repository": {
@@ -14,7 +14,7 @@
   "keywords": [
     "[]"
   ],
-  "author": "\"\"",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nhastings1/MySql-Employee-Tracker-Redo/issues"
@@ -22,8 +22,8 @@
   "homepage": "https://github.com/nhastings1/MySql-Employee-Tracker-Redo#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "express": "^4.18.1",
-    "inquirer": "^9.1.2",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
   }
 }
